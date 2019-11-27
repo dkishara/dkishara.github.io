@@ -63,35 +63,9 @@
 					<span class="text">Clear</span>
 				</div>
 
-				<div id="share-wrap">
-					<div class="btn visible disabled" id="btn-share" data-bind="click: shareButtonClick, css: { visible: showShareButton, disabled: shareDisabled, loading: shareLoading, &#39;hide&#39;: showShareOptions }">
-						<div class="text">Share</div>
-						<div class="loading-stripes"></div>
-					</div>
+		
 
-					<div id="share-options" data-bind="css: { &#39;show-share-options&#39;: showShareOptions }" class="">
-						<a class="visible btn mini" target="_blank" data-bind="attr: { href: shareUrlFacebook }" href="https://www.facebook.com/dialog/feed?app_id=408271179236250&amp;link=&amp;picture=&amp;name=Silk%20%E2%80%93%20Interactive%20Generative%20Art&amp;caption=weavesilk.com&amp;description=Create%20beautiful%20flowing%20art%20with%20Silk.&amp;redirect_uri=">
-							<span class="text"><i class="ss-facebook"></i></span>
-							<!-- <div class="tt">Facebook</div> -->
-						</a>
-
-						<a class="visible btn mini" target="_blank" data-bind="attr: { href: shareUrlTwitter }" href="https://twitter.com/share?url=&amp;text=Look%20what%20I%20drew%20with%20%23weavesilk%21">
-							<span class="text"><i class="ss-twitter"></i></span>
-							<!-- <div class="tt">Twitter</div> -->
-						</a>
-
-						<a class="visible btn mini" target="_blank" data-bind="attr: { href: shareUrlPinterest }" href="http://pinterest.com/pin/create/button/?url=&amp;media=">
-							<span class="text"><i class="ss-pinterest"></i></span>
-							<div class="tt">Pinterest</div>
-						</a>
-
-						<a class="visible btn mini" target="_blank" data-bind="attr: { href: shareUrlEmail }" href="mailto:?subject=Silk%20--%20Interactive%20generative%20art&amp;body=I%20just%20drew%20this%20on%20weavesilk.com%3A%20">
-							<span class="text"><i class="ss-mail"></i></span>
-							<div class="tt">Email</div>
-						</a>
-
-						<input class="visible direct-link" data-bind="value: shareUrlDirect, text: shareUrlDirect"></input>
-					</div>
+					
 				</div>
 			</div>
 
@@ -189,9 +163,9 @@
 			</div>
 		</div>
 
-		<canvas id="silk-2" class="silk-canvas active" width="300" height="600"></canvas><canvas id="silk-1" class="silk-canvas buffer onepacity" width="300" height="600"></canvas>
+		<canvas id="silk-2" class="silk-canvas active" width="200" height="400"></canvas><canvas id="silk-1" class="silk-canvas buffer onepacity" width="200" height="400"></canvas>
 		
-		<canvas id="sparks" width="300" height="600"></canvas>
+		<canvas id="sparks" width="200" height="400"></canvas>
 
 	</div>
 
